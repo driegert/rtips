@@ -1,0 +1,19 @@
+# Quarto build
+_site/
+.quarto/
+_freeze/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Rtmp*
+renv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+
+/.quarto/
+**/*.quarto_ipynb

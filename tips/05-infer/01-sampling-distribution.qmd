@@ -1,0 +1,10 @@
+---
+title: "The sampling distribution"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: why a sample mean varies (lab 5)
+
+Once filmed, the video goes to `r-tips-05-01-01-sampling-distribution.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-05-01-01-sampling-distribution.mp4">` embed.
+:::

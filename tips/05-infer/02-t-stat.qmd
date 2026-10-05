@@ -1,0 +1,10 @@
+---
+title: "t_stat()"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: computing the test statistic by hand
+
+Once filmed, the video goes to `r-tips-05-02-02-t-stat.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-05-02-02-t-stat.mp4">` embed.
+:::

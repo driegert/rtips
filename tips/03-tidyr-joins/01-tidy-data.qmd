@@ -1,0 +1,10 @@
+---
+title: "Tidy data"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: wide vs long; when your data is (or isn't) tidy
+
+Once filmed, the video goes to `r-tips-03-01-01-tidy-data.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-03-01-01-tidy-data.mp4">` embed.
+:::

@@ -1,0 +1,10 @@
+---
+title: "mutate()"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: create or modify columns; computed variables
+
+Once filmed, the video goes to `r-tips-02-03-03-mutate.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-02-03-03-mutate.mp4">` embed.
+:::

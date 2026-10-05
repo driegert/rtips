@@ -1,0 +1,74 @@
+---
+title: "R Tips"
+format:
+  html:
+    toc: false
+---
+
+A series of short videos (each under 5 minutes) for R and the tidyverse. Each tip
+pairs a video with a companion page that runs the same code, so you can watch,
+then do.
+
+The tips are ordered to flow: environment $\to$ data $\to$ tidyverse $\to$ ggplot $\to$ infer $\to$
+tidymodels $\to$ Quarto reports. Where a tip draws on a MATH 1051 lab, the page links
+to it.
+
+::: {.callout-note}
+Tips are being filmed. Pages marked *coming soon* will get their video and
+runnable code as the series progresses.
+:::
+
+## 1. Getting started
+
+- [Install & load packages](tips/01-getting-started/01-install-load.html) --- install.packages() vs library(), CRAN, the `pkg::fn()` form
+- [Variables & assignment](tips/01-getting-started/02-variables.html) --- `<-`, what a variable holds, naming
+- [The pipe `|>`](tips/01-getting-started/03-pipe.html) --- chaining operations
+- [Quarto + RStudio setup](tips/01-getting-started/04-quarto-rstudio.html) --- chunks, inline R, knitting
+- [Reading data](tips/01-getting-started/05-reading-data.html) --- read_csv() / read_excel(), tibble vs data.frame
+- [Looking at a tibble](tips/01-getting-started/06-looking-at-tibble.html) --- names(), str(), head(), dim()
+
+## 2. dplyr: the verbs
+
+- [filter()](tips/02-dplyr/01-filter.html) --- keep rows
+- [select()](tips/02-dplyr/02-select.html) --- pick and rename columns
+- [mutate()](tips/02-dplyr/03-mutate.html) --- create or modify columns
+- [arrange() & friends](tips/02-dplyr/04-arrange-friends.html) --- sort, slice(), n(), distinct()
+- [group_by() + summarise()](tips/02-dplyr/05-group-summarise.html) --- split-apply-combine
+- [Pipes in practice](tips/02-dplyr/06-pipes-in-practice.html) --- a full pipeline, step by step
+
+## 3. tidyr & joins
+
+- [Tidy data](tips/03-tidyr-joins/01-tidy-data.html) --- wide vs long
+- [pivot_longer() / pivot_wider()](tips/03-tidyr-joins/02-pivot.html) --- reshaping
+- [Joins](tips/03-tidyr-joins/03-joins.html) --- inner_join() vs left_join()
+
+## 4. ggplot2
+
+- [Anatomy of a plot](tips/04-ggplot2/01-anatomy.html) --- ggplot() + aes() + one layer
+- [Facets](tips/04-ggplot2/02-facets.html) --- small multiples
+- [Labels & themes](tips/04-ggplot2/03-labels-themes.html) --- labs(), theme, scales
+- [Distributions](tips/04-ggplot2/04-distributions.html) --- histograms, boxplots, smooths
+
+## 5. infer: inference
+
+- [The sampling distribution](tips/05-infer/01-sampling-distribution.html) --- why a sample mean varies
+- [t_stat()](tips/05-infer/02-t-stat.html) --- the test statistic by hand
+- [t_test()](tips/05-infer/03-t-test.html) --- hypothesize, resample, observe
+- [Confidence intervals](tips/05-infer/04-conf-int.html) --- conf_int() and how to read one
+- [Bootstrapping](tips/05-infer/05-bootstrapping.html) --- bootstrap CIs
+- [p-values & Type I error](tips/05-infer/06-p-values-type-i.html) --- what alpha actually means
+
+## 6. tidymodels
+
+- [What tidymodels is](tips/06-tidymodels/01-what-is-tidymodels.html) --- the framework, and what a spec is for
+- [lm() with tidy() / glance() / augment()](tips/06-tidymodels/02-lm-tidy.html) --- modeling in tidyverse shape
+- [Residuals & diagnostics](tips/06-tidymodels/03-residuals-diagnostics.html) --- augment() + residual plots
+- [Workflows](tips/06-tidymodels/04-workflows.html) --- a repeatable model pipeline
+- [Evaluating models](tips/06-tidymodels/05-evaluating-models.html) --- train/test split + metrics
+- [Tuning intro](tips/06-tidymodels/06-tuning-intro.html) --- grids and tune(), kept simple
+- [Classification intro](tips/06-tidymodels/07-classification-intro.html) --- logistic_reg(), roc_curve()
+
+## 7. Quarto reports (capstone)
+
+- [Tables with kable / kableExtra](tips/07-quarto/01-kable.html)
+- [Figures, citations & footnotes](tips/07-quarto/02-figures-citations.html)

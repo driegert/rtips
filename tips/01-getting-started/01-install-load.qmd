@@ -1,0 +1,10 @@
+---
+title: "Install & load packages"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: install.packages() vs library(), CRAN, the pkg::fn() form
+
+Once filmed, the video goes to `r-tips-01-01-01-install-load.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-01-01-install-load.mp4">` embed.
+:::

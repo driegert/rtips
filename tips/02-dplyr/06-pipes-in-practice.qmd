@@ -1,0 +1,10 @@
+---
+title: "Pipes in practice"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: a full wrangling pipeline built step by step (diamonds or CO2)
+
+Once filmed, the video goes to `r-tips-02-06-06-pipes-in-practice.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-02-06-06-pipes-in-practice.mp4">` embed.
+:::

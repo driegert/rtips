@@ -1,0 +1,10 @@
+---
+title: "Bootstrapping"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: bootstrap CIs; when you reach for them
+
+Once filmed, the video goes to `r-tips-05-05-05-bootstrapping.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-05-05-05-bootstrapping.mp4">` embed.
+:::

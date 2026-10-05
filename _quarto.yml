@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "R Tips"
+  subtitle: "Short videos + runnable code for R and the tidyverse"
+  author: "David Riegert"
+  chapters:
+    - index.qmd
+
+    - part: "1. Getting started"
+      chapters:
+        - tips/01-getting-started/01-install-load.qmd
+        - tips/01-getting-started/02-variables.qmd
+        - tips/01-getting-started/03-pipe.qmd
+        - tips/01-getting-started/04-quarto-rstudio.qmd
+        - tips/01-getting-started/05-reading-data.qmd
+        - tips/01-getting-started/06-looking-at-tibble.qmd
+
+    - part: "2. dplyr: the verbs"
+      chapters:
+        - tips/02-dplyr/01-filter.qmd
+        - tips/02-dplyr/02-select.qmd
+        - tips/02-dplyr/03-mutate.qmd
+        - tips/02-dplyr/04-arrange-friends.qmd
+        - tips/02-dplyr/05-group-summarise.qmd
+        - tips/02-dplyr/06-pipes-in-practice.qmd
+
+    - part: "3. tidyr & joins"
+      chapters:
+        - tips/03-tidyr-joins/01-tidy-data.qmd
+        - tips/03-tidyr-joins/02-pivot.qmd
+        - tips/03-tidyr-joins/03-joins.qmd
+
+    - part: "4. ggplot2"
+      chapters:
+        - tips/04-ggplot2/01-anatomy.qmd
+        - tips/04-ggplot2/02-facets.qmd
+        - tips/04-ggplot2/03-labels-themes.qmd
+        - tips/04-ggplot2/04-distributions.qmd
+
+    - part: "5. infer: inference"
+      chapters:
+        - tips/05-infer/01-sampling-distribution.qmd
+        - tips/05-infer/02-t-stat.qmd
+        - tips/05-infer/03-t-test.qmd
+        - tips/05-infer/04-conf-int.qmd
+        - tips/05-infer/05-bootstrapping.qmd
+        - tips/05-infer/06-p-values-type-i.qmd
+
+    - part: "6. tidymodels"
+      chapters:
+        - tips/06-tidymodels/01-what-is-tidymodels.qmd
+        - tips/06-tidymodels/02-lm-tidy.qmd
+        - tips/06-tidymodels/03-residuals-diagnostics.qmd
+        - tips/06-tidymodels/04-workflows.qmd
+        - tips/06-tidymodels/05-evaluating-models.qmd
+        - tips/06-tidymodels/06-tuning-intro.qmd
+        - tips/06-tidymodels/07-classification-intro.qmd
+
+    - part: "7. Quarto reports (capstone)"
+      chapters:
+        - tips/07-quarto/01-kable.qmd
+        - tips/07-quarto/02-figures-citations.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    code-tools: true
+    toc: true
+    search: true
+
+execute:
+  echo: true

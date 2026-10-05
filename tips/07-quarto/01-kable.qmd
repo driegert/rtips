@@ -1,0 +1,10 @@
+---
+title: "Tables with kable / kableExtra"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: lab 12 material
+
+Once filmed, the video goes to `r-tips-07-01-01-kable.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-07-01-01-kable.mp4">` embed.
+:::
