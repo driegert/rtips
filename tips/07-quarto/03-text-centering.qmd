@@ -19,7 +19,7 @@ If you want the centered text to [match the font style of the headings](@sec-cen
 
 ## Video
 
-<video controls src="https://videos.tmas.app/r-tips/r-tips-07-03-text-centering.mp4">
+<video controls style="width: 100%; max-width: 720px; height: auto;" src="https://videos.tmas.app/r-tips/r-tips-07-03-text-centering.mp4">
 
 </video>
 
