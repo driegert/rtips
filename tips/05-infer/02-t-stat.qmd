@@ -1,5 +1,5 @@
 ---
-title: "t_stat()"
+title: "t_stat() [soon]{.soon}"
 ---
 
 ::: {.callout-note}

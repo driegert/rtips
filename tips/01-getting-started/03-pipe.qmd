@@ -1,5 +1,5 @@
 ---
-title: "The pipe |> "
+title: "The pipe |&gt; [soon]{.soon}"
 ---
 
 ::: {.callout-note}

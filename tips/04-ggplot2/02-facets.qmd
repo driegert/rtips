@@ -1,5 +1,5 @@
 ---
-title: "Facets"
+title: "Facets [soon]{.soon}"
 ---
 
 ::: {.callout-note}

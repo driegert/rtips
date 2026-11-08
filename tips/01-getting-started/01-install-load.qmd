@@ -1,5 +1,5 @@
 ---
-title: "Install & load packages"
+title: "Install &amp; load packages [soon]{.soon}"
 ---
 
 ::: {.callout-note}

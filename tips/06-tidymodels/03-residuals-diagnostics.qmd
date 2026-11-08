@@ -1,5 +1,5 @@
 ---
-title: "Residuals & diagnostics"
+title: "Residuals &amp; diagnostics [soon]{.soon}"
 ---
 
 ::: {.callout-note}

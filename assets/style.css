@@ -6,3 +6,23 @@ img.bordered {
 div.columns[data-align="center"] > div.column {
   vertical-align: middle;
 }
+/* "soon" badge for tips that aren't written yet: add [soon]{.soon} to the title */
+.soon {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0 0.45em;
+  font-size: 0.65em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border-radius: 0.6em;
+  color: #6c757d;
+  border: 1px solid currentColor;
+}
+.sidebar-link:has(.soon) {
+  opacity: 0.55;
+}
+.sidebar-link:has(.soon):hover {
+  opacity: 1;
+}

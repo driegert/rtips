@@ -1,5 +1,5 @@
 ---
-title: "The sampling distribution"
+title: "The sampling distribution [soon]{.soon}"
 ---
 
 ::: {.callout-note}

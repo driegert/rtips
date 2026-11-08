@@ -1,5 +1,5 @@
 ---
-title: "Confidence intervals"
+title: "Confidence intervals [soon]{.soon}"
 ---
 
 ::: {.callout-note}

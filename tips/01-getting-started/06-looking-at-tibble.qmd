@@ -1,5 +1,5 @@
 ---
-title: "Looking at a tibble"
+title: "Looking at a tibble [soon]{.soon}"
 ---
 
 ::: {.callout-note}

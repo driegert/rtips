@@ -1,5 +1,5 @@
 ---
-title: "filter()"
+title: "filter() [soon]{.soon}"
 ---
 
 ::: {.callout-note}

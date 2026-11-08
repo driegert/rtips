@@ -1,5 +1,5 @@
 ---
-title: "What tidymodels is"
+title: "What tidymodels is [soon]{.soon}"
 ---
 
 ::: {.callout-note}

@@ -1,5 +1,5 @@
 ---
-title: "Side-by-Side Tables in PDFs"
+title: "Side-by-Side Tables in PDFs [soon]{.soon}"
 ---
 
 ::: {.callout-note}

@@ -1,5 +1,5 @@
 ---
-title: "Classification intro (stretch)"
+title: "Classification intro (stretch) [soon]{.soon}"
 ---
 
 ::: {.callout-note}

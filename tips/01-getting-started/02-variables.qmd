@@ -1,5 +1,5 @@
 ---
-title: "Variables & assignment"
+title: "Variables &amp; assignment [soon]{.soon}"
 ---
 
 ::: {.callout-note}

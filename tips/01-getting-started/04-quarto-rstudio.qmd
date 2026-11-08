@@ -1,5 +1,5 @@
 ---
-title: "Quarto + RStudio setup"
+title: "Quarto + RStudio setup [soon]{.soon}"
 ---
 
 ::: {.callout-note}

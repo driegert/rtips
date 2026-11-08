@@ -1,5 +1,5 @@
 ---
-title: "Joins"
+title: "Joins [soon]{.soon}"
 ---
 
 ::: {.callout-note}

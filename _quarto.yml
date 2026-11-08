@@ -75,7 +75,8 @@ format:
     search: true
     css: assets/style.css
 
-number-sections: false
+number-sections: true
+number-depth: 1
 
 execute:
   echo: true

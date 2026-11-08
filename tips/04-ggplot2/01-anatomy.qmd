@@ -1,5 +1,5 @@
 ---
-title: "Anatomy of a plot"
+title: "Anatomy of a plot [soon]{.soon}"
 ---
 
 ::: {.callout-note}

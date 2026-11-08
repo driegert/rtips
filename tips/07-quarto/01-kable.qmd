@@ -1,5 +1,5 @@
 ---
-title: "Tables with kable / kableExtra"
+title: "Tables with kable / kableExtra [soon]{.soon}"
 ---
 
 ::: {.callout-note}

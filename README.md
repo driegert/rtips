@@ -40,6 +40,10 @@ Tip files are zero-padded `nn-slug.qmd` inside their part folder
    ````
    followed by a couple of sentences, the same code as runnable chunks, and a
    link to the related MATH 1051 lab where one exists.
+4. Remove ` [soon]{.soon}` from the end of the tip's `title:`. That badge marks
+   unfinished pages (greyed out in the sidebar; styled in `assets/style.css`).
+   In titles, write `&` as `&amp;` and `>` as `&gt;`, otherwise the sidebar
+   shows the title as raw text.
 
 ## Building locally
 
