@@ -1,5 +1,4 @@
 ---
-number-sections: false
 title: "pivot_longer() / pivot_wider()"
 ---
 

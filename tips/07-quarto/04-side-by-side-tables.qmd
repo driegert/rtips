@@ -1,5 +1,4 @@
 ---
-number-sections: false
 title: "Side-by-Side Tables in PDFs"
 ---
 

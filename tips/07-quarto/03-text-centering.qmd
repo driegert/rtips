@@ -1,5 +1,4 @@
 ---
-number-sections: false
 title: "Centering Text for Quarto PDFs"
 ---
 

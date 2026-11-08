@@ -1,5 +1,4 @@
 ---
-number-sections: false
 title: "Pipes in practice"
 ---
 

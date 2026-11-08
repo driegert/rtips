@@ -1,5 +1,4 @@
 ---
-number-sections: false
 title: "Tables with kable / kableExtra"
 ---
 
