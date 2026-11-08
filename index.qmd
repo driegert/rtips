@@ -1,4 +1,5 @@
 ---
+number-sections: false
 title: "R Tips"
 format:
   html:
@@ -72,3 +73,4 @@ runnable code as the series progresses.
 
 - [Tables with kable / kableExtra](tips/07-quarto/01-kable.html)
 - [Figures, citations & footnotes](tips/07-quarto/02-figures-citations.html)
+- [Side-by-side tables in PDFs](tips/07-quarto/04-side-by-side-tables.html) --- `layout-ncol`, `tbl-cap` and `tbl-subcap`

@@ -1,4 +1,5 @@
 ---
+number-sections: false
 title: "lm() with tidy() / glance() / augment()"
 ---
 

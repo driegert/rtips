@@ -63,6 +63,8 @@ book:
       chapters:
         - tips/07-quarto/01-kable.qmd
         - tips/07-quarto/02-figures-citations.qmd
+        - tips/07-quarto/03-text-centering.qmd
+        - tips/07-quarto/04-side-by-side-tables.qmd
 
 format:
   html:
@@ -71,7 +73,9 @@ format:
     code-tools: true
     toc: true
     search: true
+    css: assets/style.css
 
 execute:
   echo: true
+  cache: true
   freeze: auto

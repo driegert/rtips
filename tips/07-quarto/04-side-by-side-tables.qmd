@@ -1,0 +1,12 @@
+---
+number-sections: false
+title: "Side-by-Side Tables in PDFs"
+---
+
+::: {.callout-note}
+*Coming soon.* This tip covers: two tables in one chunk with `layout-ncol`,
+`tbl-cap` and `tbl-subcap`, for Quarto PDF output
+
+Once filmed, the video goes to `r-tips-07-04-side-by-side-tables.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-07-04-side-by-side-tables.mp4">` embed.
+:::

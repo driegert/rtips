@@ -17,3 +17,9 @@ Thumbs.db
 
 /.quarto/
 **/*.quarto_ipynb
+
+# video files
+videos/
+
+# scratch work
+dev/
