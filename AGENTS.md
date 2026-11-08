@@ -12,7 +12,9 @@ Quarto book of R tips (`tips/`), deployed to GitHub Pages.
 
 ## Conventions
 
-- `number-sections: false` lives in `_quarto.yml` only; do not add it to tip files.
+- Section numbering lives in `_quarto.yml` only — `number-sections: true` with
+  `number-depth: 1` (top-level headings numbered, subsections unnumbered).
+  Do not set numbering options in tip files.
 - Figure captions on `.columns` blocks: wrap the columns div in an outer fenced
   div with one more colon (`:::::`) carrying the `#fig-` id and the caption text.
 - Nesting fenced divs: the outer div needs more colons than the inner one.
