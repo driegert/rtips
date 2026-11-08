@@ -5,6 +5,6 @@ title: "Looking at a tibble"
 ::: {.callout-note}
 *Coming soon.* This tip covers: names(), str(), head(), dim(); what a tibble actually is
 
-Once filmed, the video goes to `r-tips-01-06-06-looking-at-tibble.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-06-06-looking-at-tibble.mp4">` embed.
+Once filmed, the video goes to `r-tips-01-06-looking-at-tibble.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-06-looking-at-tibble.mp4">` embed.
 :::

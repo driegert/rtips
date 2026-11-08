@@ -5,6 +5,6 @@ title: "lm() with tidy() / glance() / augment()"
 ::: {.callout-note}
 *Coming soon.* This tip covers: modeling in tidyverse shape
 
-Once filmed, the video goes to `r-tips-06-02-02-lm-tidy.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-02-02-lm-tidy.mp4">` embed.
+Once filmed, the video goes to `r-tips-06-02-lm-tidy.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-02-lm-tidy.mp4">` embed.
 :::

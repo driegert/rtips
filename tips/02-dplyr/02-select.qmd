@@ -5,6 +5,6 @@ title: "select()"
 ::: {.callout-note}
 *Coming soon.* This tip covers: pick and rename columns; tidyselect helpers (where(), starts_with())
 
-Once filmed, the video goes to `r-tips-02-02-02-select.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-02-02-02-select.mp4">` embed.
+Once filmed, the video goes to `r-tips-02-02-select.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-02-02-select.mp4">` embed.
 :::

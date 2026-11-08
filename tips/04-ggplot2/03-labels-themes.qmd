@@ -5,6 +5,6 @@ title: "Labels & themes"
 ::: {.callout-note}
 *Coming soon.* This tip covers: labs(), titles, theme, tweaking scales
 
-Once filmed, the video goes to `r-tips-04-03-03-labels-themes.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-04-03-03-labels-themes.mp4">` embed.
+Once filmed, the video goes to `r-tips-04-03-labels-themes.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-04-03-labels-themes.mp4">` embed.
 :::

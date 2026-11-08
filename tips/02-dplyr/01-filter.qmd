@@ -5,6 +5,6 @@ title: "filter()"
 ::: {.callout-note}
 *Coming soon.* This tip covers: keep rows: ==, >, & / |, %in%, between()
 
-Once filmed, the video goes to `r-tips-02-01-01-filter.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-02-01-01-filter.mp4">` embed.
+Once filmed, the video goes to `r-tips-02-01-filter.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-02-01-filter.mp4">` embed.
 :::

@@ -5,6 +5,6 @@ title: "Reading data"
 ::: {.callout-note}
 *Coming soon.* This tip covers: read_csv() / read_excel(), tibble vs data.frame, glimpse()
 
-Once filmed, the video goes to `r-tips-01-05-05-reading-data.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-05-05-reading-data.mp4">` embed.
+Once filmed, the video goes to `r-tips-01-05-reading-data.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-05-reading-data.mp4">` embed.
 :::

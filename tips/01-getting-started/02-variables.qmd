@@ -5,6 +5,6 @@ title: "Variables & assignment"
 ::: {.callout-note}
 *Coming soon.* This tip covers: \<- , what a variable holds (numbers, strings, logicals, vectors), naming
 
-Once filmed, the video goes to `r-tips-01-02-02-variables.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-02-02-variables.mp4">` embed.
+Once filmed, the video goes to `r-tips-01-02-variables.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-02-variables.mp4">` embed.
 :::

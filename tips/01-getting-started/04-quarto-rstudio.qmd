@@ -5,6 +5,6 @@ title: "Quarto + RStudio setup"
 ::: {.callout-note}
 *Coming soon.* This tip covers: chunks, inline R, knitting to PDF/HTML (the format every video's .qmd uses)
 
-Once filmed, the video goes to `r-tips-01-04-04-quarto-rstudio.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-04-04-quarto-rstudio.mp4">` embed.
+Once filmed, the video goes to `r-tips-01-04-quarto-rstudio.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-01-04-quarto-rstudio.mp4">` embed.
 :::

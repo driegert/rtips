@@ -5,6 +5,6 @@ title: "Workflows"
 ::: {.callout-note}
 *Coming soon.* This tip covers: workflow() for a repeatable model pipeline
 
-Once filmed, the video goes to `r-tips-06-04-04-workflows.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-04-04-workflows.mp4">` embed.
+Once filmed, the video goes to `r-tips-06-04-workflows.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-04-workflows.mp4">` embed.
 :::

@@ -5,6 +5,6 @@ title: "Anatomy of a plot"
 ::: {.callout-note}
 *Coming soon.* This tip covers: ggplot() + aes() + one layer (geom_point / geom_col)
 
-Once filmed, the video goes to `r-tips-04-01-01-anatomy.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-04-01-01-anatomy.mp4">` embed.
+Once filmed, the video goes to `r-tips-04-01-anatomy.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-04-01-anatomy.mp4">` embed.
 :::

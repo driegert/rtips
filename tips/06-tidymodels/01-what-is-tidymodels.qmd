@@ -5,6 +5,6 @@ title: "What tidymodels is"
 ::: {.callout-note}
 *Coming soon.* This tip covers: the tidy modeling framework; what a spec is for
 
-Once filmed, the video goes to `r-tips-06-01-01-what-is-tidymodels.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-01-01-what-is-tidymodels.mp4">` embed.
+Once filmed, the video goes to `r-tips-06-01-what-is-tidymodels.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-01-what-is-tidymodels.mp4">` embed.
 :::

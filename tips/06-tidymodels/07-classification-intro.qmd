@@ -5,6 +5,6 @@ title: "Classification intro (stretch)"
 ::: {.callout-note}
 *Coming soon.* This tip covers: logistic_reg(), roc_curve()
 
-Once filmed, the video goes to `r-tips-06-07-07-classification-intro.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-07-07-classification-intro.mp4">` embed.
+Once filmed, the video goes to `r-tips-06-07-classification-intro.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-06-07-classification-intro.mp4">` embed.
 :::

@@ -5,6 +5,6 @@ title: "Confidence intervals"
 ::: {.callout-note}
 *Coming soon.* This tip covers: conf_int() and how to read one (climate data: openintro::us_temperature)
 
-Once filmed, the video goes to `r-tips-05-04-04-conf-int.mp4` on R2 and the page gets a
-`<video controls src="https://videos.tmas.app/r-tips/r-tips-05-04-04-conf-int.mp4">` embed.
+Once filmed, the video goes to `r-tips-05-04-conf-int.mp4` on R2 and the page gets a
+`<video controls src="https://videos.tmas.app/r-tips/r-tips-05-04-conf-int.mp4">` embed.
 :::

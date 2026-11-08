@@ -1,0 +1,4 @@
+---
+title: "Centering Text for Quarto PDFs"
+---
+
