@@ -23,6 +23,38 @@ Quarto book of R tips (`tips/`), deployed to GitHub Pages.
   the header font style (default PDF class is `scrartcl`).
 - Column vertical centering is handled by `assets/style.css`.
 
+## Working alongside other agents
+
+Up to three agents (Claude, Codex, pi, …) may share this working tree at once.
+They coordinate through `.agent-board/` (gitignored, local only): one file per
+agent, so nobody edits anyone else's file.
+
+- **On start, and before any commit, push, `quarto render` or broad edit:**
+  read every file in `.agent-board/`.
+- **Post your own card** as `.agent-board/<your-name>.md` (pick a short name,
+  e.g. `claude-hosting`, `codex-1`). Keep it current; delete it when you finish.
+  ```
+  task:    one line on what you're doing
+  paths:   files/dirs you are editing (globs fine)
+  status:  editing | committed, not pushed | waiting on user
+  notes:   anything another agent should know (e.g. "commit 73f153b is mine")
+  updated: 2026-11-08 15:40
+  ```
+- **Don't touch paths on another live card.** If you need one, ask the user.
+- **An unexpected diff is someone else's work.** Don't revert, reformat, stage
+  or "clean up" changes you didn't make, even in a file you're also editing.
+- **Commit only your own changes, by explicit path:** `git commit -- <paths>`.
+  Never `git add -A`, `git add .`, `git commit -a`, `git stash`,
+  `git reset --hard`, `git checkout -- .`/`git restore .`, or `git clean`.
+  If one file mixes your hunks with someone else's, stage only yours
+  (`git apply --cached` of a patch) or ask the user.
+- **Push only when the user asks.** A push sends every agent's local commits
+  and redeploys the site. Say which commits are going out.
+- **`quarto render` rewrites shared outputs** (`_site/`, `_freeze/`). Note on
+  your card when you render, and don't commit `_freeze/` entries for tips
+  another agent is editing.
+- A card older than a day may be stale. Ask the user before deleting it.
+
 ## Videos
 
 - No player page. Upload the edited render to
@@ -33,5 +65,6 @@ Quarto book of R tips (`tips/`), deployed to GitHub Pages.
 
 ## To do
 
-- Custom domain rtips.tmas.app: discussed but not configured (no CNAME file or
-  GitHub Pages domain setting yet).
+- Custom domain rtips.tmas.app: DNS (Cloudflare CNAME -> driegert.github.io,
+  DNS only) and the GitHub Pages domain setting are done; site is live over
+  HTTP. Waiting on GitHub's HTTPS certificate, then tick "Enforce HTTPS".

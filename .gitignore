@@ -23,3 +23,6 @@ videos/
 
 # scratch work
 dev/
+
+# Agent coordination cards (local only; see AGENTS.md)
+.agent-board/
