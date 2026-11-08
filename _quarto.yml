@@ -74,3 +74,4 @@ format:
 
 execute:
   echo: true
+  freeze: auto

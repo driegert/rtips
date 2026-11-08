@@ -4,7 +4,8 @@ Short R Tips videos (each under 5 min), each with a companion page running the
 same code. One Quarto **book** project: the 7 checklist sections are parts,
 each tip is a chapter, and every chapter renders to its own HTML page.
 
-- **Site**: hosted on GitHub Pages (built on push by GitHub Actions)
+- **Site**: hosted on GitHub Pages (built on push by GitHub Actions from
+  frozen results — R never runs in CI)
 - **Videos**: hosted on Cloudflare R2 at `https://videos.tmas.app/r-tips/` —
   they never live in this repo
 - **Data**: the MATH 1051 lab datasets live in `data/` so the site is
@@ -19,8 +20,9 @@ index.qmd          landing page with the full tip map
 tips/<part>/<nn-slug>.qmd   one page per tip
 data/              lab datasets (af_grades, sleep, potato_chips, owid-co2-data.xlsx, production.csv)
 assets/            css / logo for the site
-renv.lock          exact R package versions (used by CI; renv/ itself is ignored)
-.github/workflows/deploy.yml   builds _site/ and deploys to GitHub Pages on push
+_freeze/           saved code results (committed; CI renders from these)
+renv.lock          exact R package versions (renv/ itself is ignored)
+.github/workflows/deploy.yml   renders _site/ from _freeze/ and deploys to GitHub Pages on push
 ```
 
 Tip files are zero-padded `nn-slug.qmd` inside their part folder
@@ -46,10 +48,15 @@ Rscript -e "renv::restore()"   # once, or after renv.lock changes
 quarto render                   # output in _site/ (gitignored)
 ```
 
+`execute: freeze: auto` means a tip's R code only re-runs when its `.qmd`
+changes; results are saved in `_freeze/`. **Commit `_freeze/` along with the
+`.qmd`** — the GitHub build has no R and uses those saved results. To force a
+re-run of one tip: `quarto render tips/<part>/<nn-slug>.qmd`.
+
 ## Deploying
 
-Push to `main` — GitHub Actions runs Quarto (with R from `renv.lock`) and
-publishes to GitHub Pages. One-time setup after the first push: in the repo
+Render locally, commit (including `_freeze/`), push to `main` — GitHub Actions
+runs Quarto on the frozen results and publishes to GitHub Pages. One-time setup after the first push: in the repo
 settings → Pages, set the source to **GitHub Actions** (not a branch).
 
 ## Data files

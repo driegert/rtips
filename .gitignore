@@ -1,7 +1,7 @@
 # Quarto build
 _site/
 .quarto/
-_freeze/
+*_cache/
 
 # R
 .Rproj.user/
