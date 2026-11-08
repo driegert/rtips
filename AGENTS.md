@@ -24,6 +24,7 @@ GitHub Pages domain setting, HTTPS enforced).
   required or centering silently fails. KOMA `\usekomafont{...}` commands match
   the header font style (default PDF class is `scrartcl`).
 - Column vertical centering is handled by `assets/style.css`.
+- Creating a new tip: follow .agents/skills/create-tip/SKILL.md.
 
 ## Working alongside other agents
 
@@ -61,6 +62,6 @@ agent, so nobody edits anyone else's file.
 
 - No player page. Upload the edited render to
   `videos-r2:videos/r-tips/<r-tips-XX-YY-slug>.mp4` with rclone and embed a raw
-  `<video controls src="https://videos.tmas.app/r-tips/<name>.mp4">` in the tip.
+  `<video controls style="width: 100%; max-width: 720px; height: auto;" src="https://videos.tmas.app/r-tips/<name>.mp4">` in the tip.
   Working example: tips/07-quarto/03-text-centering.qmd
 - Scratch renders, transcripts and raw recordings live in `dev/` (untracked).
