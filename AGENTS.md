@@ -1,6 +1,8 @@
 # R Tips book
 
-Quarto book of R tips (`tips/`), deployed to GitHub Pages.
+Quarto book of R tips (`tips/`), deployed to GitHub Pages at
+<https://rtips.tmas.app> (custom domain: Cloudflare CNAME -> driegert.github.io,
+GitHub Pages domain setting, HTTPS enforced).
 
 ## Deploy contract
 
@@ -62,9 +64,3 @@ agent, so nobody edits anyone else's file.
   `<video controls src="https://videos.tmas.app/r-tips/<name>.mp4">` in the tip.
   Working example: tips/07-quarto/03-text-centering.qmd
 - Scratch renders, transcripts and raw recordings live in `dev/` (untracked).
-
-## To do
-
-- Custom domain rtips.tmas.app: DNS (Cloudflare CNAME -> driegert.github.io,
-  DNS only) and the GitHub Pages domain setting are done; site is live over
-  HTTP. Waiting on GitHub's HTTPS certificate, then tick "Enforce HTTPS".
