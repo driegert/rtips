@@ -10,8 +10,7 @@ pairs a video with a companion page that runs the same code, so you can watch,
 then do.
 
 The tips are ordered to flow: environment $\to$ data $\to$ tidyverse $\to$ ggplot $\to$ infer $\to$
-tidymodels $\to$ Quarto reports. Where a tip draws on a MATH 1051 lab, the page links
-to it.
+tidymodels $\to$ Quarto reports.
 
 ::: {.callout-note}
 Tips are being filmed. Pages marked *coming soon* will get their video and
