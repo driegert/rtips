@@ -5,6 +5,8 @@ project:
 book:
   title: "R Tips"
   favicon: assets/rtips-favicon.png
+  sidebar:
+    collapse-level: 1
   subtitle: "Short videos + runnable code for R and the tidyverse"
   author: "David Riegert"
   chapters:
