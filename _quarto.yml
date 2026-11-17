@@ -4,6 +4,7 @@ project:
 
 book:
   title: "R Tips"
+  favicon: assets/rtips-favicon.png
   subtitle: "Short videos + runnable code for R and the tidyverse"
   author: "David Riegert"
   chapters:
@@ -70,7 +71,7 @@ format:
   html:
     theme: cosmo
     grid:
-      sidebar-width: 320px
+      sidebar-width: 340px
       body-width: 900px
     code-fold: true
     code-tools: true
