@@ -69,6 +69,9 @@ book:
 format:
   html:
     theme: cosmo
+    grid:
+      sidebar-width: 320px
+      body-width: 900px
     code-fold: true
     code-tools: true
     toc: true
